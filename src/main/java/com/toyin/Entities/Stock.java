@@ -1,11 +1,10 @@
 package com.toyin.Entities;
 
-import java.math.BigDecimal;
-
 public class Stock {
 
     private String stockName;
-    private String price;
+    private String stockPrice;
+
 
     public String getStockName() {
         return stockName;
@@ -15,11 +14,11 @@ public class Stock {
         this.stockName = stockName;
     }
 
-    public String getPrice() {
-        return price;
+    public String getStockPrice() {
+        return stockPrice;
     }
 
-    public void setPrice(String price) {
-        this.price = price;
+    public void setStockPrice(String stockPrice) {
+        this.stockPrice = stockPrice;
     }
 }
