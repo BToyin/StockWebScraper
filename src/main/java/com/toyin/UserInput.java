@@ -5,11 +5,8 @@ import java.util.Scanner;
 
 public class UserInput {
 
-    private static final String baseUrl = "https://uk.finance.yahoo.com/quote/";
-
-
-    public static String getUrl() {
-
+    public static String getYahooFinanceUrl() {
+        String baseUrl = "https://uk.finance.yahoo.com/quote/";
         Scanner scanner;
         System.out.println("Choose ticker: ");
         scanner = new Scanner(System.in);
